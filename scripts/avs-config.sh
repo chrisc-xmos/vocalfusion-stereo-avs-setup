@@ -8,6 +8,7 @@ SDK_BUILD=$SDK_FOLDER/sdk-build
 THIRD_PARTY=$SDK_FOLDER/third-party
 APPS_FILES=$SDK_FOLDER/application-necessities
 SOUND_FILES=$APPS_FILES/sound-files
+XMOS_ESP_FOLDER=$HOME/xmos-esp
 
 # Choose DEBUG or RELEASE type
 BUILD_TYPE=RELEASE
