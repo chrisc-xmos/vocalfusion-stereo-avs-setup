@@ -17,8 +17,8 @@ cmake $SDK_SRC \
   -DPORTAUDIO_LIB_PATH=$THIRD_PARTY/portaudio/lib/.libs/libportaudio.a \
   -DPORTAUDIO_INCLUDE_DIR=$THIRD_PARTY/portaudio/include \
   -DESP_PROVIDER=ON \
-  -DESP_LIB_PATH=$XMOS_ESP_FOLDER/lib \
-  -DESP_INCLUDE_DIR=$XMOS_ESP_FOLDER/include
+  -DESP_LIB_PATH=$SCRIPTS_DIR/../xmos-esp/lib/libesp_host.a \
+  -DESP_INCLUDE_DIR=$SCRIPTS_DIR/../xmos-esp/include
 
 if [ -e $SCRIPTS_DIR/AlexaClientSDKConfig.json ]; then
     # If you have a cached copy, then use that
