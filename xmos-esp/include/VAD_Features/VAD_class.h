@@ -3,6 +3,8 @@
 #ifndef VADCLASS_H
 #define VADCLASS_H
 
+#include "common/fixed_pt.h"
+
 /**
  *
  * An Amazon Alexa Voice Service (AVS) SDK compatible interface class to the XMOS Echo Spatial 

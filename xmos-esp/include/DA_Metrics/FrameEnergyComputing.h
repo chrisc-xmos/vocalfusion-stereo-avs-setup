@@ -3,6 +3,8 @@
 #ifndef FRAMEENERGYCLASS_H
 #define FRAMEENERGYCLASS_H
 
+#include "common/fixed_pt.h"
+
 /**
  * An Amazon AVS SDK compatible interface class to the XMOS Echo Spatial Perception library that 
  * runs directly on the Vocalfusion device. This class provides a C++ wrapper around the XMOS
